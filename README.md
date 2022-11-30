@@ -1,4 +1,6 @@
 # newtons-method
+Implementation of newtons method of zero approximation and more generally equation solution approximation.
+
 ```c
 double newtons_method(double (*func)(double), double n) {
     // Question... where does func(x) = n?
